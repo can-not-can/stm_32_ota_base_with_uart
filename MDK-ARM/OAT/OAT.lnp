@@ -1,0 +1,26 @@
+--cpu Cortex-M3
+"oat\startup_stm32f103xe.o"
+"oat\main.o"
+"oat\gpio.o"
+"oat\usart.o"
+"oat\stm32f1xx_it.o"
+"oat\stm32f1xx_hal_msp.o"
+"oat\bootloader_code.o"
+"oat\flag_content.o"
+"oat\stm32f1xx_hal_gpio_ex.o"
+"oat\stm32f1xx_hal_uart.o"
+"oat\stm32f1xx_hal.o"
+"oat\stm32f1xx_hal_rcc.o"
+"oat\stm32f1xx_hal_rcc_ex.o"
+"oat\stm32f1xx_hal_gpio.o"
+"oat\stm32f1xx_hal_dma.o"
+"oat\stm32f1xx_hal_cortex.o"
+"oat\stm32f1xx_hal_pwr.o"
+"oat\stm32f1xx_hal_flash.o"
+"oat\stm32f1xx_hal_flash_ex.o"
+"oat\stm32f1xx_hal_exti.o"
+"oat\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "OAT\OAT.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "OAT.map" -o OAT\OAT.axf

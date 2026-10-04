@@ -1,0 +1,12 @@
+oat\stm32f10x_flash.o: ..\Flag\stm32f10x_flash.c
+oat\stm32f10x_flash.o: ..\Flag\stm32f10x_flash.h
+oat\stm32f10x_flash.o: S:\Keil5\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h
+oat\stm32f10x_flash.o: .\RTE\_OAT\RTE_Components.h
+oat\stm32f10x_flash.o: ../Drivers/CMSIS/Include/core_cm3.h
+oat\stm32f10x_flash.o: S:\Keil5\Core\ARM\ARM_Compiler_5.06u7\Bin\..\include\stdint.h
+oat\stm32f10x_flash.o: ../Drivers/CMSIS/Include/cmsis_version.h
+oat\stm32f10x_flash.o: ../Drivers/CMSIS/Include/cmsis_compiler.h
+oat\stm32f10x_flash.o: ../Drivers/CMSIS/Include/cmsis_armcc.h
+oat\stm32f10x_flash.o: S:\Keil5\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h
+oat\stm32f10x_flash.o: ..\Flag\flag_content.h
+oat\stm32f10x_flash.o: ..\Flag\stm32f10x_flash.h

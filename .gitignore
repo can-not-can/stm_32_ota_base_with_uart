@@ -1,0 +1,51 @@
+# ===================== STM32 Keil 工程 =====================
+# 编译产物（随时重新生成，不入库）
+Listings/
+Objects/
+DebugConfig/
+*.o
+*.d
+*.crf
+*.axf
+*.hex
+*.bin
+*.map
+*.htm
+*.dep
+*.lnp
+
+# Keil 用户配置（机器相关，不入库）
+*.uvguix.*
+*.uvopt
+*.uvoptx
+*.bak
+
+# J-Link / 调试
+JLinkLog.txt
+JLinkSettings.ini
+*.sct
+*.sct.bak
+
+# STM32CubeMX 生成备份
+*.ioc.bak
+
+# ===================== Python 上位机 =====================
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+build/
+dist/
+build_tmp/
+*.spec
+OTA_Uploader.exe
+
+# ===================== 通用 =====================
+.idea/
+.vscode/
+Thumbs.db
+desktop.ini
+.DS_Store
